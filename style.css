@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.main{
+    background-color: #FFF4E7;
+    padding-bottom: 20px;  
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+/*---------------
+-this is my first style--
+---------------------*/
+ .nav{
+    margin: auto;
+    padding: 25px 0;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+   
+ }
+ .nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    
+ }
+ .nav ul li:last-child{
+    margin-right: 0;
+ }
+ .nav ul li a{
+   text-decoration: none;
+   color:#131313;
+ }
+  
+ .button{
+   padding: 15px 20px;
+   margin-bottom: 15px;
+   background-color: #FF900E;
+   outline: none;
+   border: none;
+   border-radius: 5px;
+   color: #ffffff;
+   font-size: 16px;
+ }
+ .banner{
+    text-align: center;
+ }
+ .banner h1{
+   font-size: 40px;
+   letter-spacing: 1px;
+ }
+ .banner img{
+    width: 100%;
+ }
+
+
+ .mid{
+   padding: 20px 0;
+ }
+ .mid .container{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+ }
+ .left-panel, .right-panel{
+   width: 50%;
+ }
+ .left-panel{
+   display: flex;
+   flex-wrap: wrap;
+ }
+ .mid-img{
+   width: 45%;
+   margin: 2.5%;
+ }
+ .mid-img img{
+   width: 100%;
+ }
+ .right-text{
+   padding: 120px 0 0 20px;
+
+ }
+.right-panel h2{
+   color: #727272;
+   font-size: 20px;
+   font-weight: normal;
+}
+.right-panel h1{
+   color: #FF900E;
+}
+.text-bold{
+   font-weight: bold;
+   color: #000000;
+}
+.text-colored{
+   color: #FF900E;
+   font-weight: bold;
+   font-size: 28px;
+}
+.right-panel p{
+   color: #727272;
+   font-weight: normal;
+   font-size: 14px;
+}
+/*---------------
+feature section--
+----------------*/
+.feature .container{
+   display: flex;
+   flex-wrap: wrap;
+}
+.feature-boxes{
+   width: 48%;
+}
+.feature-boxes h1{
+   font-size: 28px;
+   border-left: 5px solid #FF900E;
+   padding-left: 15px;
+}
+.feature-boxes p{
+   font-size: 14px;
+   color: #727272;
+   width: 85%;
+}
+.feature-box{
+   width: 85%;
+   padding: 15px;
+   margin-bottom: 10px;
+   border-radius: 5px;
+   box-shadow: 0 0 30px #ededed;
+}
+.feature-box h3{
+   margin: 0;
+   padding: 0;
+   color: #131313;
+}
+.feature-image{
+   width: 52%;
+   position: relative;
+}
+.feature-image img{
+   width: 100%;
+   padding-top: 25px;
+}
+.feature-image button{
+   position: absolute;
+   bottom: 40px;
+   left: -35px;
+}
+.capital{
+   padding: 15px 20px;
+   margin-bottom: 15px;
+   background-color: #FF900E;
+   outline: none;
+   border: none;
+   border-radius: 5px;
+   color: #ffffff;
+   font-size: 45px;
+}
+.small{
+   font-size: 15px;
+}
+
+.fact{
+
+}
+.fact-header h3{
+   font-size: 28px;
+   margin-bottom: 10px;
+}
+.fact-header p{
+   font-size: 14px;
+   color: #727272;
+   margin-bottom: 35px;
+}
+.fact-icons{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.fact-box{
+   width: 20%;
+   border-radius: 5px;
+   border: 1px solid #FF900E;
+   text-align: center;
+   box-sizing: border-box;
+   padding: 20px 15px;
+}
+.fact-box h2{
+   margin: 0;
+   padding: 0;
+   margin: 5px 0;
+}
+.fact-box h3{
+   margin: 0;
+   padding: 0;
+   color: #727272;
+   font-size: 14px;
+}
+.sponsors{
+   padding: 50px 0;
+   text-align: center;
+}
+.sponsor-header h3{
+   font-size: 28px;
+   margin-bottom: 10px;
+}
+.sponsor-header p{
+   font-size: 14px;
+   color: #727272;
+   margin-bottom: 35px;
+}
+.sponsor-images{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.sponsor-image{
+   width: 10%;
+   text-align: center;
+}
+.sponsor-image img{
+   width: 100%;
+}
+footer{
+   text-align: center;
+   font-size: 14px;
+   color: #727272;
+   background-color: #FFF4E7;
+   padding: 8px;
+}
+/*------------------
+media query----------
+---------------------*/
+
+@media only screen and (max-width: 768px) {
+   .mid .container .mid-img{
+      width: 100%;
+   }
+ }
+
+ @media only screen and (max-width: 400px) {
+   .mid .container .mid-img{
+      width: 100%;
+   }
+ }
+
+ @media only screen and (max-width: 900px) {
+   .mid .container .mid-img{
+      width: 100%;
+   }
+ }
